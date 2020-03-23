@@ -1,0 +1,186 @@
+
+#header
+
+{
+position:absolute;
+top:0px;
+left:0px;
+right:0px;
+height:800px;
+background-image:url(14.jpg);
+}
+
+
+#sidebar
+{
+position:fixed;
+width:200px;
+height:100%;
+left:-200px;
+background-color:rgba(0,0,0,0.9);
+}
+
+#sidebar.active
+{
+left:0px;  
+}
+
+#sidebar ul li
+{
+ color:rgba(230,230,230,0.5);
+ list-style:none;
+ padding:15px 10px;
+ border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn
+{
+position:absolute;
+left:230px;
+top:0px;
+}
+#sidebar .toggle-btn span
+{
+display:block;
+width:30px;
+height:5px;
+background:grey;
+margin:3px 0px;
+}
+#p
+{
+color:red;
+position:absolute;
+top:0px;
+left:10px;
+right:0px;
+height:800px;
+float:left;
+font-size:80px;
+
+}
+#mySlides
+{
+
+position:absolute;
+top:400px;
+left:5px;
+right:5px;
+height:200px;
+float:center;
+}
+
+
+#image
+{
+
+position:absolute;
+top:810px;
+left:10px;
+right:1000px;
+height:100px;
+float:left;
+}
+ 
+#photo
+{
+position:absolute;
+top:810px;
+left:515px;
+right:650px;
+height:100px;
+float:center;
+}
+
+#picture
+{
+position:absolute;
+top:810px;
+left:1100px;
+right:0px;
+height:100px;
+float:right;
+}
+
+#contain
+{
+position:absolute;
+top:0px;
+left:0px;
+right:0px;
+height:400px;
+list-style:none;
+}
+
+
+#contain ul li 
+{
+  background-color:rgba(0,0,0,0.4);
+   width:150px;
+  border:1px solid white;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+cursor:pointer;
+float:right;
+color:rgb(150,10,50);
+font-size:25px;
+list-style:none;
+}
+#contain ul li:hover
+{
+text-decoration:none;
+background-color:white;
+}
+ul li ul li
+{
+display:none;
+}
+ul li:hover ul li
+{
+text-decoration:none;
+display:block;
+}
+
+#saree
+{
+
+position:absolute;
+top:1260px;
+left:10px;
+right:800px;
+height:200px;
+float:left;
+}
+
+#sports
+{
+
+position:absolute;
+top:1260px;
+left:390px;
+right:800px;
+height:200px;
+float:center;
+}
+#girl
+{
+
+position:absolute;
+top:1260px;
+left:1200px;
+right:800px;
+height:400px;
+float: right;
+}
+
+#footer
+
+{
+position:absolute;
+top:1750px;
+left:0px;
+right:0px;
+height:400px;
+background-image:linear-gradient(to top,black,grey,white);
+text-align:center;
+}
